@@ -1,0 +1,5 @@
+name: Confirm Pods are Synced (using reusable workflow)
+on: [push]
+jobs:
+  call-other-workflow:
+    uses: redstar504/react-pods-workflow/.github/workflows/workflow.yml@v1.0
